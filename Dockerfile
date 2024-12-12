@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM gcr.io/distroless/base-debian12:nonroot
 
 RUN apk --update add \
     ca-certificates 
